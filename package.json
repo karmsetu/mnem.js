@@ -1,0 +1,25 @@
+{
+    "name": "mnemjs",
+    "version": "beta",
+    "description": "A tiny utility to show and trigger accesskey-style mnemonics for modern UIs.",
+    "keywords": [
+        "mnemonics",
+        "accesskey",
+        "keyboard",
+        "shortcut",
+        "ui",
+        "hotkeys"
+    ],
+    "license": "MIT",
+    "author": "Karmsetu",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch"
+    },
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    }
+}

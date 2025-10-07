@@ -1,0 +1,43 @@
+# Ignore source files
+src/
+*.ts
+!dist/
+
+# Ignore build configs
+tsconfig.json
+tsconfig.*.json
+
+# Ignore package management files
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore test files
+__tests__/
+test/*
+tests/
+*.test.*
+*.spec.*
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Ignore git files
+.git/
+.gitignore
+
+# Ignore examples or playgrounds
+example/
+examples/
+playground/
+demo/
+
+# Ignore docs not needed in package
+README-old.md
+drafts/
+notes/
+TODO.md
